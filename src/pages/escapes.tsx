@@ -1,5 +1,5 @@
 import { NextPage, GetStaticProps } from "next";
-import { db } from "@/plugins/firebase";
+import { db } from "@/firebase";
 import { Escape } from "@/interfaces";
 
 type Props = {
